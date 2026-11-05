@@ -1,0 +1,824 @@
+{
+ "best_layer": {
+  "librispeech": 29,
+  "ami": 29
+ },
+ "generation": {
+  "ok": {
+   "ami": 0.6,
+   "librispeech": 0.7
+  },
+  "n_text_tokens": {
+   "ami": 12.1,
+   "librispeech": 15.45
+  },
+  "speech_frac": {
+   "ami": NaN,
+   "librispeech": NaN
+  }
+ },
+ "librispeech|share_lost|talking_audio|top5": [
+  0.517,
+  0.469,
+  0.563,
+  1708
+ ],
+ "librispeech|share_lost|mix0|top5": [
+  0.411,
+  0.361,
+  0.459,
+  1708
+ ],
+ "librispeech|share_lost|mix-10|top5": [
+  0.107,
+  0.07,
+  0.146,
+  1708
+ ],
+ "librispeech|share_lost|nat_self|top5": [
+  0.337,
+  0.214,
+  0.459,
+  175
+ ],
+ "librispeech|share_lost|nat_self|top5_excl_own": [
+  0.34,
+  0.227,
+  0.454,
+  175
+ ],
+ "librispeech|share_lost|nat_self_audio|top5": [
+  0.388,
+  0.265,
+  0.51,
+  175
+ ],
+ "librispeech|share_lost|nat_self_audio|top5_excl_own": [
+  0.381,
+  0.268,
+  0.505,
+  175
+ ],
+ "librispeech|share_lost|nat_other|top5": [
+  0.663,
+  0.531,
+  0.796,
+  175
+ ],
+ "librispeech|share_lost|nat_other|top5_excl_own": [
+  0.67,
+  0.546,
+  0.804,
+  175
+ ],
+ "ami|share_lost|talking_audio|top5": [
+  0.514,
+  0.469,
+  0.555,
+  1631
+ ],
+ "ami|share_lost|mix0|top5": [
+  0.347,
+  0.305,
+  0.389,
+  1631
+ ],
+ "ami|share_lost|mix-10|top5": [
+  0.136,
+  0.099,
+  0.174,
+  1631
+ ],
+ "ami|share_lost|nat_self|top5": [
+  0.5,
+  0.345,
+  0.655,
+  170
+ ],
+ "ami|share_lost|nat_self|top5_excl_own": [
+  0.474,
+  0.333,
+  0.654,
+  170
+ ],
+ "ami|share_lost|nat_self_audio|top5": [
+  0.464,
+  0.309,
+  0.619,
+  170
+ ],
+ "ami|share_lost|nat_self_audio|top5_excl_own": [
+  0.449,
+  0.295,
+  0.615,
+  170
+ ],
+ "ami|share_lost|nat_other|top5": [
+  0.595,
+  0.452,
+  0.75,
+  170
+ ],
+ "ami|share_lost|nat_other|top5_excl_own": [
+  0.615,
+  0.462,
+  0.782,
+  170
+ ],
+ "ami|beh|nat_listen|kl": [
+  1.0,
+  1.0,
+  1.0,
+  0.472,
+  12
+ ],
+ "ami|beh|nat_listen|flip": [
+  1.0,
+  1.0,
+  1.0,
+  0.583,
+  12
+ ],
+ "ami|beh|nat_listen|dlogp": [
+  1.0,
+  1.0,
+  1.0,
+  0.264,
+  12
+ ],
+ "ami|beh|nat_other|kl": [
+  0.519,
+  0.3,
+  0.821,
+  0.245,
+  12
+ ],
+ "ami|beh|nat_other|flip": [
+  0.286,
+  0.0,
+  1.0,
+  0.167,
+  12
+ ],
+ "ami|beh|nat_other|dlogp": [
+  2.233,
+  -17.979,
+  17.872,
+  0.59,
+  12
+ ],
+ "ami|beh|nat_self|kl": [
+  1.723,
+  0.982,
+  2.881,
+  0.814,
+  12
+ ],
+ "ami|beh|nat_self|flip": [
+  1.143,
+  0.6,
+  2.333,
+  0.667,
+  12
+ ],
+ "ami|beh|nat_self|dlogp": [
+  0.067,
+  -8.779,
+  7.833,
+  0.018,
+  12
+ ],
+ "ami|beh|nat_self_audio|kl": [
+  1.14,
+  0.636,
+  1.931,
+  0.538,
+  12
+ ],
+ "ami|beh|nat_self_audio|flip": [
+  0.714,
+  0.25,
+  1.333,
+  0.417,
+  12
+ ],
+ "ami|beh|nat_self_audio|dlogp": [
+  0.743,
+  -6.669,
+  6.436,
+  0.196,
+  12
+ ],
+ "ami|beh|listen|kl": [
+  1.0,
+  1.0,
+  1.0,
+  0.442,
+  40
+ ],
+ "ami|beh|listen|flip": [
+  1.0,
+  1.0,
+  1.0,
+  0.55,
+  40
+ ],
+ "ami|beh|listen|dlogp": [
+  1.0,
+  1.0,
+  1.0,
+  0.029,
+  40
+ ],
+ "ami|beh|mix-10|kl": [
+  1.036,
+  0.848,
+  1.259,
+  0.458,
+  40
+ ],
+ "ami|beh|mix-10|flip": [
+  1.136,
+  0.818,
+  1.579,
+  0.625,
+  40
+ ],
+ "ami|beh|mix-10|dlogp": [
+  -1.413,
+  -14.786,
+  12.27,
+  -0.041,
+  40
+ ],
+ "ami|beh|mix0|kl": [
+  0.654,
+  0.549,
+  0.766,
+  0.289,
+  40
+ ],
+ "ami|beh|mix0|flip": [
+  0.909,
+  0.555,
+  1.412,
+  0.5,
+  40
+ ],
+ "ami|beh|mix0|dlogp": [
+  -3.671,
+  -28.164,
+  18.887,
+  -0.108,
+  40
+ ],
+ "ami|beh|talking_audio|kl": [
+  0.815,
+  0.663,
+  1.041,
+  0.36,
+  40
+ ],
+ "ami|beh|talking_audio|flip": [
+  0.727,
+  0.407,
+  1.167,
+  0.4,
+  40
+ ],
+ "ami|beh|talking_audio|dlogp": [
+  5.349,
+  -18.274,
+  31.163,
+  0.157,
+  40
+ ],
+ "librispeech|beh|nat_listen|kl": [
+  1.0,
+  1.0,
+  1.0,
+  0.549,
+  14
+ ],
+ "librispeech|beh|nat_listen|flip": [
+  1.0,
+  1.0,
+  1.0,
+  0.5,
+  14
+ ],
+ "librispeech|beh|nat_listen|dlogp": [
+  1.0,
+  1.0,
+  1.0,
+  1.118,
+  14
+ ],
+ "librispeech|beh|nat_other|kl": [
+  0.705,
+  0.484,
+  0.977,
+  0.387,
+  14
+ ],
+ "librispeech|beh|nat_other|flip": [
+  1.143,
+  0.5,
+  3.0,
+  0.571,
+  14
+ ],
+ "librispeech|beh|nat_other|dlogp": [
+  0.945,
+  0.627,
+  1.631,
+  1.056,
+  14
+ ],
+ "librispeech|beh|nat_self|kl": [
+  1.312,
+  1.012,
+  1.778,
+  0.72,
+  14
+ ],
+ "librispeech|beh|nat_self|flip": [
+  1.286,
+  0.625,
+  3.0,
+  0.643,
+  14
+ ],
+ "librispeech|beh|nat_self|dlogp": [
+  0.804,
+  0.126,
+  1.964,
+  0.898,
+  14
+ ],
+ "librispeech|beh|nat_self_audio|kl": [
+  0.796,
+  0.576,
+  1.128,
+  0.436,
+  14
+ ],
+ "librispeech|beh|nat_self_audio|flip": [
+  0.571,
+  0.125,
+  1.75,
+  0.286,
+  14
+ ],
+ "librispeech|beh|nat_self_audio|dlogp": [
+  0.963,
+  0.458,
+  1.806,
+  1.077,
+  14
+ ],
+ "librispeech|beh|listen|kl": [
+  1.0,
+  1.0,
+  1.0,
+  0.818,
+  40
+ ],
+ "librispeech|beh|listen|flip": [
+  1.0,
+  1.0,
+  1.0,
+  0.2,
+  40
+ ],
+ "librispeech|beh|listen|dlogp": [
+  1.0,
+  1.0,
+  1.0,
+  0.25,
+  40
+ ],
+ "librispeech|beh|mix-10|kl": [
+  0.487,
+  0.415,
+  0.575,
+  0.398,
+  40
+ ],
+ "librispeech|beh|mix-10|flip": [
+  2.125,
+  1.083,
+  4.75,
+  0.425,
+  40
+ ],
+ "librispeech|beh|mix-10|dlogp": [
+  0.65,
+  -0.809,
+  2.246,
+  0.163,
+  40
+ ],
+ "librispeech|beh|mix0|kl": [
+  0.38,
+  0.318,
+  0.465,
+  0.311,
+  40
+ ],
+ "librispeech|beh|mix0|flip": [
+  1.0,
+  0.4,
+  2.5,
+  0.2,
+  40
+ ],
+ "librispeech|beh|mix0|dlogp": [
+  -0.478,
+  -3.354,
+  0.438,
+  -0.12,
+  40
+ ],
+ "librispeech|beh|talking_audio|kl": [
+  0.512,
+  0.448,
+  0.597,
+  0.419,
+  40
+ ],
+ "librispeech|beh|talking_audio|flip": [
+  2.625,
+  1.364,
+  7.008,
+  0.525,
+  40
+ ],
+ "librispeech|beh|talking_audio|dlogp": [
+  0.433,
+  -0.696,
+  1.75,
+  0.108,
+  40
+ ],
+ "ami|patch|nat_self|1-28|attn": [
+  0.548,
+  0.317,
+  0.735
+ ],
+ "ami|patch|nat_self|1-28|layer": [
+  0.905,
+  0.75,
+  1.043
+ ],
+ "ami|patch|nat_self|1-28|mlp": [
+  -0.452,
+  -0.967,
+  -0.128
+ ],
+ "ami|patch|nat_self|1-8|attn": [
+  -0.071,
+  -0.394,
+  0.154
+ ],
+ "ami|patch|nat_self|1-8|layer": [
+  0.81,
+  0.558,
+  1.103
+ ],
+ "ami|patch|nat_self|1-8|mlp": [
+  0.452,
+  0.205,
+  0.7
+ ],
+ "ami|patch|nat_self|17-20|attn": [
+  0.143,
+  -0.057,
+  0.333
+ ],
+ "ami|patch|nat_self|17-20|layer": [
+  0.5,
+  0.268,
+  0.706
+ ],
+ "ami|patch|nat_self|17-20|mlp": [
+  0.095,
+  -0.128,
+  0.294
+ ],
+ "ami|patch|nat_self|21-24|attn": [
+  0.214,
+  0.0,
+  0.405
+ ],
+ "ami|patch|nat_self|21-24|layer": [
+  0.476,
+  0.27,
+  0.682
+ ],
+ "ami|patch|nat_self|21-24|mlp": [
+  0.214,
+  -0.0,
+  0.405
+ ],
+ "ami|patch|nat_self|25-28|attn": [
+  0.143,
+  -0.069,
+  0.316
+ ],
+ "ami|patch|nat_self|25-28|layer": [
+  0.452,
+  0.209,
+  0.667
+ ],
+ "ami|patch|nat_self|25-28|mlp": [
+  0.214,
+  0.0,
+  0.4
+ ],
+ "ami|patch|nat_self|9-16|attn": [
+  0.214,
+  -0.035,
+  0.422
+ ],
+ "ami|patch|nat_self|9-16|layer": [
+  0.643,
+  0.414,
+  0.85
+ ],
+ "ami|patch|nat_self|9-16|mlp": [
+  0.429,
+  0.16,
+  0.732
+ ],
+ "ami|patch|talking_audio|1-28|attn": [
+  0.632,
+  0.5,
+  0.765
+ ],
+ "ami|patch|talking_audio|1-28|layer": [
+  0.981,
+  0.919,
+  1.037
+ ],
+ "ami|patch|talking_audio|1-28|mlp": [
+  -0.745,
+  -1.099,
+  -0.509
+ ],
+ "ami|patch|talking_audio|1-8|attn": [
+  -0.255,
+  -0.471,
+  -0.093
+ ],
+ "ami|patch|talking_audio|1-8|layer": [
+  0.877,
+  0.77,
+  0.988
+ ],
+ "ami|patch|talking_audio|1-8|mlp": [
+  0.481,
+  0.301,
+  0.655
+ ],
+ "ami|patch|talking_audio|17-20|attn": [
+  0.236,
+  0.131,
+  0.34
+ ],
+ "ami|patch|talking_audio|17-20|layer": [
+  0.66,
+  0.534,
+  0.78
+ ],
+ "ami|patch|talking_audio|17-20|mlp": [
+  0.472,
+  0.34,
+  0.605
+ ],
+ "ami|patch|talking_audio|21-24|attn": [
+  0.245,
+  0.14,
+  0.365
+ ],
+ "ami|patch|talking_audio|21-24|layer": [
+  0.774,
+  0.644,
+  0.911
+ ],
+ "ami|patch|talking_audio|21-24|mlp": [
+  0.33,
+  0.19,
+  0.46
+ ],
+ "ami|patch|talking_audio|25-28|attn": [
+  0.274,
+  0.164,
+  0.395
+ ],
+ "ami|patch|talking_audio|25-28|layer": [
+  0.792,
+  0.67,
+  0.929
+ ],
+ "ami|patch|talking_audio|25-28|mlp": [
+  0.575,
+  0.454,
+  0.713
+ ],
+ "ami|patch|talking_audio|9-16|attn": [
+  0.283,
+  0.167,
+  0.398
+ ],
+ "ami|patch|talking_audio|9-16|layer": [
+  0.943,
+  0.823,
+  1.072
+ ],
+ "ami|patch|talking_audio|9-16|mlp": [
+  -0.038,
+  -0.253,
+  0.124
+ ],
+ "librispeech|patch|nat_self|1-28|attn": [
+  0.345,
+  0.0,
+  0.621
+ ],
+ "librispeech|patch|nat_self|1-28|layer": [
+  1.0,
+  0.9,
+  1.107
+ ],
+ "librispeech|patch|nat_self|1-28|mlp": [
+  -1.414,
+  -2.667,
+  -0.806
+ ],
+ "librispeech|patch|nat_self|1-8|attn": [
+  -0.172,
+  -0.613,
+  0.125
+ ],
+ "librispeech|patch|nat_self|1-8|layer": [
+  0.69,
+  0.379,
+  1.0
+ ],
+ "librispeech|patch|nat_self|1-8|mlp": [
+  0.483,
+  0.053,
+  0.957
+ ],
+ "librispeech|patch|nat_self|17-20|attn": [
+  0.034,
+  -0.19,
+  0.24
+ ],
+ "librispeech|patch|nat_self|17-20|layer": [
+  0.517,
+  0.259,
+  0.833
+ ],
+ "librispeech|patch|nat_self|17-20|mlp": [
+  0.138,
+  -0.154,
+  0.435
+ ],
+ "librispeech|patch|nat_self|21-24|attn": [
+  0.207,
+  0.0,
+  0.438
+ ],
+ "librispeech|patch|nat_self|21-24|layer": [
+  0.552,
+  0.308,
+  0.815
+ ],
+ "librispeech|patch|nat_self|21-24|mlp": [
+  0.172,
+  -0.103,
+  0.469
+ ],
+ "librispeech|patch|nat_self|25-28|attn": [
+  0.207,
+  -0.077,
+  0.438
+ ],
+ "librispeech|patch|nat_self|25-28|layer": [
+  0.69,
+  0.464,
+  1.0
+ ],
+ "librispeech|patch|nat_self|25-28|mlp": [
+  0.448,
+  0.182,
+  0.769
+ ],
+ "librispeech|patch|nat_self|9-16|attn": [
+  0.31,
+  0.071,
+  0.55
+ ],
+ "librispeech|patch|nat_self|9-16|layer": [
+  0.931,
+  0.679,
+  1.235
+ ],
+ "librispeech|patch|nat_self|9-16|mlp": [
+  0.552,
+  0.161,
+  1.0
+ ],
+ "librispeech|patch|talking_audio|1-28|attn": [
+  0.416,
+  0.265,
+  0.556
+ ],
+ "librispeech|patch|talking_audio|1-28|layer": [
+  0.973,
+  0.924,
+  1.026
+ ],
+ "librispeech|patch|talking_audio|1-28|mlp": [
+  -0.858,
+  -1.172,
+  -0.614
+ ],
+ "librispeech|patch|talking_audio|1-8|attn": [
+  -0.434,
+  -0.677,
+  -0.261
+ ],
+ "librispeech|patch|talking_audio|1-8|layer": [
+  0.92,
+  0.795,
+  1.058
+ ],
+ "librispeech|patch|talking_audio|1-8|mlp": [
+  0.319,
+  0.126,
+  0.508
+ ],
+ "librispeech|patch|talking_audio|17-20|attn": [
+  0.124,
+  0.018,
+  0.227
+ ],
+ "librispeech|patch|talking_audio|17-20|layer": [
+  0.77,
+  0.636,
+  0.916
+ ],
+ "librispeech|patch|talking_audio|17-20|mlp": [
+  0.407,
+  0.265,
+  0.563
+ ],
+ "librispeech|patch|talking_audio|21-24|attn": [
+  0.239,
+  0.141,
+  0.353
+ ],
+ "librispeech|patch|talking_audio|21-24|layer": [
+  0.752,
+  0.62,
+  0.885
+ ],
+ "librispeech|patch|talking_audio|21-24|mlp": [
+  0.124,
+  -0.013,
+  0.245
+ ],
+ "librispeech|patch|talking_audio|25-28|attn": [
+  0.177,
+  0.058,
+  0.308
+ ],
+ "librispeech|patch|talking_audio|25-28|layer": [
+  0.779,
+  0.663,
+  0.92
+ ],
+ "librispeech|patch|talking_audio|25-28|mlp": [
+  0.628,
+  0.504,
+  0.765
+ ],
+ "librispeech|patch|talking_audio|9-16|attn": [
+  0.319,
+  0.192,
+  0.458
+ ],
+ "librispeech|patch|talking_audio|9-16|layer": [
+  0.903,
+  0.773,
+  1.067
+ ],
+ "librispeech|patch|talking_audio|9-16|mlp": [
+  -0.584,
+  -0.867,
+  -0.375
+ ]
+}

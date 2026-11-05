@@ -1,0 +1,41 @@
+dataset,i,ok,n_text_tokens,speech_frac,tries,reply
+librispeech,0,True,17,,3,I see. So the river is called the Adonis. Is that correct?
+librispeech,1,True,47,,1,"Yeah. You know what? I really like mashed potatoes, too, but I' not a big mashed potato person, so I probably won't make those when I cook. They' a slop."
+librispeech,2,True,65,,1,"Yeah, I think that's what it is. And then it' like a really bright, it's like a sunset. I think that's what they tryingre to do. And then, you know, it' not just one color, it's a lot of different colors together. That's"
+librispeech,3,True,6,,1,"Hi, how are you?"
+librispeech,4,True,54,,1,"They did. And that's, I mean, that's what, you know, it was just funny. I was watching, I think, some news program the other day. And I think the French have finally been sort of kicked out of there. And"
+librispeech,5,True,40,,1,"I do. Yeah. Yeah, I do. That's a good one. That' a good one. It' a good one to bring into the 4th grade. They have that"
+librispeech,6,True,52,,1,"Yeah, they were pretty good. I think it was in the 90s when I did that, and she was already, I think, 82 then. But she was sharp as a tack. Yeah, she was. She was really"
+librispeech,7,True,60,,1,"Yeah, yeah. And I think it alsos the idea, like, with the 2000, the year 2000, where they had like, they're worried about the computers going to take over and everything. And so it's kind of, I guess"
+librispeech,8,True,54,,1,"Yeah, and you know, even today you see a lot of men still don't want to, you know, it's still hard for them to accept that their wife is working. You know, they expect her to stay home and, you know, do"
+librispeech,9,True,7,,1,"Hi, I'm Emily."
+librispeech,10,False,0,,1,
+librispeech,11,False,0,,1,
+librispeech,12,True,19,,1,"Okay, I didn't hear the last part. I just heard liberty commits what?"
+librispeech,13,True,14,,1,"Yeah, well, it didn't work out for him either."
+librispeech,14,True,53,,1,"Okay, so you' not going to say that it limits it to the United States. You going to say it limits it to any place. All right, so we got that straightened out. And then it says it limits the use to law. So now"
+librispeech,15,True,43,,1,"So I guess the question is, did they leave them behind? Did they just say, okay, these people are poor, we' not going to bother with them? Or did they really do everything they could?"
+librispeech,16,True,6,,1,What's his name?
+librispeech,17,True,33,,1,"I see. So she was starting out with that in mind. Okay. And what about, let's say, the hero? Was the hero trying to forget"
+librispeech,18,True,17,,1,He was really good with kids. He would get all the kids to do things.
+librispeech,19,True,66,,1,"No, I mean, no, not always. I mean, I was born in the United States. I was raised in United States, and I only visited in the last three years. So, you know, that's why, you know, when you talk to me about things, I do have to ask you questions"
+ami,0,True,11,,1,"Well, yeah, I don' think so either."
+ami,1,True,44,,1,"You can use the tool, you can let your friends use the tool, you can let your friends show you what the tools can do, but you can't let your friends tell you how to use the tool."
+ami,2,True,7,,1,"Hello, my name is Maria."
+ami,3,True,35,,1,"Yeah, that's right. I've seen it before, yeah. Yeah. So, is there anything else you want to say about movies or television right now?"
+ami,4,True,3,,2,Go ahead.
+ami,5,False,0,,1,
+ami,6,True,17,,2,"I'm trying to get a better connection, but I'll hang on."
+ami,7,True,39,,1,"Yeah, I think I agree with you I think the medium, the medium t would be the best, and if the large is not available, then you go with the large. That's"
+ami,8,True,14,,3,"Yeah, it' a it's a really, you know,"
+ami,9,True,18,,1,"Yeah, that's right. So where do you live? I don' know."
+ami,10,False,2,,2,Hello.
+ami,11,True,29,,1,"No, no, no. It's always the man who's in charge, right? So you think this is a good movie?"
+ami,12,True,30,,1,Okay. Okay. So I don't know. We'll go into the topic here. I just think we should talk about the topic.
+ami,13,True,54,,1,"Yeah, you can do that. Just say, hey, just let me know when you done. And then I' respond. And then you can just say, yeah, I done. And then you can say, okay, what would you like to know?"
+ami,14,True,25,,2,"So I guess we supposedre to talk about pets. Is that what you were told? Hi, how are you?"
+ami,15,True,22,,1,"Okay, so it a little bit bigger. So that's 26 times 3, right?"
+ami,16,True,12,,3,I agree. I agree. That' a good point.
+ami,17,False,2,,3,Hello?
+ami,18,True,47,,1,"Yeah, I guess that's the way to do it is to be a good friend, and that's the best advertising that you need. And if you're honest and you treat people straight, then they'll talk"
+ami,19,True,63,,1,"Oh, how funny. Yeah, I guess that's what it is. Yeah, I neverve been in that thing. I'm more into the golf type of tea, but, you know, I'll tell you what, that's got to be a pretty neat event, though. You"

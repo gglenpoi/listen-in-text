@@ -1,0 +1,72 @@
+{
+  "model": "moshi",
+  "datasets": [
+    "librispeech",
+    "ami"
+  ],
+  "n_turns": 48,
+  "turn_sec": 20.0,
+  "gap_sec": 0.3,
+  "mix_db": [
+    0,
+    -10
+  ],
+  "n_beh": 40,
+  "n_nat": 20,
+  "nat_turn_sec": 10.0,
+  "trig_sec": 6.0,
+  "nat_lead_sec": 0.5,
+  "temp": 0.8,
+  "top_k": 250,
+  "temp_text": 0.7,
+  "top_k_text": 25,
+  "gen_tries": 3,
+  "min_speech_frac": 0.3,
+  "min_gen_words": 3,
+  "n_patch": 12,
+  "patch_blocks": [
+    [
+      1,
+      8
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      25,
+      28
+    ],
+    [
+      1,
+      28
+    ]
+  ],
+  "silence_frames": 6,
+  "post_sec": 1.5,
+  "resp_gap_sec": 0.5,
+  "topk": 20,
+  "lag_frames": 4,
+  "n_control": 5,
+  "min_word_chars": 4,
+  "n_boot": 1000,
+  "aligner": "mms",
+  "whisper_model": "small.en",
+  "tl_extra": [],
+  "tl_extra_turns": 0,
+  "dtype": "auto",
+  "seed": 0,
+  "model_repo": "kyutai/moshiko-pytorch-bf16",
+  "text_prompt": "",
+  "prefix_user": "silence",
+  "out_dir": "/kaggle/working/moshi_v9",
+  "aligner_used": "mms"
+}

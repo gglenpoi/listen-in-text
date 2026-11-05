@@ -1,0 +1,34 @@
+{
+  "model": "moshi",
+  "datasets": [
+    "librispeech",
+    "ami"
+  ],
+  "conditions": [
+    "listen",
+    "talking_audio",
+    "own_reversed",
+    "own_noise",
+    "own_echo",
+    "own_gain-30",
+    "own_gain-10"
+  ],
+  "echo_delay_sec": 0.2,
+  "echo_gain_db": -10,
+  "n_turns": 60,
+  "turn_sec": 20.0,
+  "gap_sec": 0.3,
+  "silence_frames": 6,
+  "post_sec": 1.5,
+  "resp_gap_sec": 0.5,
+  "min_word_chars": 4,
+  "n_boot": 2000,
+  "tl_extra": [],
+  "tl_extra_turns": 0,
+  "dtype": "auto",
+  "seed": 0,
+  "model_repo": "kyutai/moshiko-pytorch-bf16",
+  "text_prompt": "",
+  "prefix_user": "silence",
+  "out_dir": "/kaggle/working/moshi_v8"
+}
