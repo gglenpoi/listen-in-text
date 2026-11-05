@@ -1,5 +1,7 @@
 # Do Full-Duplex Speech Models Listen in Text?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23988671.svg)](https://doi.org/10.5281/zenodo.23988671)
+
 **A latent transcript of the user and a voice gate that closes it.**
 Code, notebooks, results and paper sources for the study by Mikhail Kulik (Independent Researcher).
 
@@ -61,7 +63,7 @@ Model weights are downloaded from Hugging Face under their respective licences a
 
 ## Paper
 
-Preprint PDF: [`paper/preprint.pdf`](paper/preprint.pdf) (arXiv link to follow).
+Preprint: [doi.org/10.5281/zenodo.23988671](https://doi.org/10.5281/zenodo.23988671) · PDF in this repository: [`paper/preprint.pdf`](paper/preprint.pdf) (arXiv link to follow).
 
 ## Citation
 
@@ -70,6 +72,9 @@ Preprint PDF: [`paper/preprint.pdf`](paper/preprint.pdf) (arXiv link to follow).
   title  = {Do Full-Duplex Speech Models Listen in Text? A Latent Transcript of the User and a Voice Gate That Closes It},
   author = {Kulik, Mikhail},
   year   = {2026},
+  publisher = {Zenodo},
+  doi    = {10.5281/zenodo.23988671},
+  url    = {https://doi.org/10.5281/zenodo.23988671},
   note   = {Preprint}
 }
 ```
